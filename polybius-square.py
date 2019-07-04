@@ -38,13 +38,12 @@ class PolybiusCipher:
         return ciphertext
 
 
-pb = PolybiusCipher()
-print("A program that uses a Polybius Square to encipher messages")
-pb.draw_polybius_square()
-print()
-plaintext = "This cipher uses a 6x6 square that includes letters and numbers"
-key = "LEMON"
-print("PLAINTEXT:\n\t %s"%(plaintext))
-print("CIPHERTEXT (NO KEY):\n\t %s"%(pb.encipher_message(plaintext) ))
-print("CIPHERTEXT (KEY: LEMON):\n\t %s"%(pb.encipher_message(plaintext, key = key) ))
-
+#pb = PolybiusCipher()
+#print("A program that uses a Polybius Square to encipher messages")
+#pb.draw_polybius_square()
+#print()
+#plaintext = "This cipher uses a 6x6 square that includes letters and numbers"
+#key = "LEMON"
+#print("PLAINTEXT:\n\t %s"%(plaintext))
+#print("CIPHERTEXT (NO KEY):\n\t %s"%(pb.encipher_message(plaintext) ))
+#print("CIPHERTEXT (KEY: LEMON):\n\t %s"%(pb.encipher_message(plaintext, key = key) ))
